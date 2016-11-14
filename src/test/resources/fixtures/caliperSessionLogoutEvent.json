@@ -14,16 +14,6 @@
   "action": "http://purl.imsglobal.org/vocab/caliper/v1/action#LoggedOut",
   "object": {
     "@context": "http://purl.imsglobal.org/ctx/caliper/v1/Context",
-    "@id": "https://example.com/viewer",
-    "@type": "http://purl.imsglobal.org/caliper/v1/SoftwareApplication",
-    "name": "ePub",
-    "description": null,
-    "extensions": {},
-    "dateCreated": "2015-08-01T06:00:00.000Z",
-    "dateModified": "2015-09-02T11:30:00.000Z"
-  },
-  "target": {
-    "@context": "http://purl.imsglobal.org/ctx/caliper/v1/Context",
     "@id": "https://example.com/viewer/session-123456789",
     "@type": "http://purl.imsglobal.org/caliper/v1/Session",
     "name": "session-123456789",
@@ -45,6 +35,7 @@
     "endedAtTime": "2015-09-15T11:05:00.000Z",
     "duration": "PT3000S"
   },
+  "target": null,
   "generated": null,
   "eventTime": "2015-09-15T10:15:00.000Z",
   "edApp": {
